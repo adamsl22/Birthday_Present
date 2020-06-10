@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#header-img {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  align-self: center;
+  background-color: green;
+}
+
+h1 {
+  position: relative; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+}
+
+h2 {
+  position: absolute; 
+  top: 5; 
+  left: 0; 
+  width: 100%; 
+}
+
+#gif {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+}
